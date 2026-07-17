@@ -219,6 +219,8 @@ h1, h2, h3 {
 }
 .card__text { margin: 0 0 var(--space-10); font-size: 15.5px; flex: 1; }
 .card .btn { align-self: center; }
+.units__more { text-align: center; margin: var(--space-10) 0 0; color: var(--color-body); font-size: 15.5px; }
+.units__more a { color: var(--color-primary); font-weight: 600; white-space: nowrap; }
 
 /* ---------------- Categorias (linhas largas) ---------------- */
 .features {

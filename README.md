@@ -56,7 +56,8 @@ Para mudar o número ou a mensagem, troque em todos — é o mesmo link repetido
 | Arquivo                   | Proporção | Uso                           |
 |---------------------------|-----------|-------------------------------|
 | `hero-farmaceutica.webp`  | 1600×1000 | Fundo do hero                 |
-| `fachada.webp`            | 800×600   | Seção "Sobre" (fachada nova)  |
+| `fachada.webp`            | 800×600   | Seção "Sobre" + card Parque Trindade I |
+| `fachada-vila-rizzo.webp` | 800×600   | Card da unidade Vila Rizzo (Goiânia)   |
 | `servico-pressao.webp`    | 600×400   | Card de pressão ⚠️ trocar     |
 | `servico-glicemia.webp`   | 600×400   | Card de glicemia ⚠️ trocar    |
 | `servico-injetaveis.webp` | 600×400   | Card de injetáveis ⚠️ trocar  |
