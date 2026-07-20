@@ -39,17 +39,21 @@ Para mudar o número ou a mensagem, troque em todos — é o mesmo link repetido
 
 - **Domínio** — está com o placeholder `drogaryos.com.br` no `canonical`, no `og:url`,
   no `og:image`, no `schema.org` e no arquivo `CNAME`. Troque pelo domínio real.
-- **Bairros de entrega** — na seção "Tele-Entrega" a lista ainda tem
-  `[Bairro vizinho 1..5]`. Preencha com os bairros reais ou apague o `<ul class="chips">`.
-- **Serviços** — a página afirma que a farmácia faz aferição de pressão, teste de
-  glicemia e aplicação de injetáveis (você confirmou que são os mesmos serviços).
-  As **3 fotos** desses cards (`servico-pressao/glicemia/injetaveis.webp`) foram
-  baixadas de um site de referência e têm risco jurídico de banco de imagens —
-  o ideal é trocar por fotos reais da loja.
+- **Bairros de entrega** — a lista de bairros foi removida; a seção de entrega
+  funciona com texto + botão de WhatsApp. Se quiser listar bairros, me avise.
+- **Serviços** — a página oferece apenas **aplicação de injetáveis** (aferição de
+  pressão e teste de glicemia foram removidos a pedido). A foto desse card
+  (`servico-injetaveis.webp`) foi baixada de um site de referência e tem risco
+  jurídico de banco de imagens — o ideal é trocar por foto real da loja.
 - **Formas de pagamento** no FAQ (está "Pix, dinheiro e cartões").
 - **Logo** — o favicon e os logos do hero/rodapé ainda usam o logo do template.
   Se a Droga Ryos tiver logo próprio, é só me mandar que eu substituo
   (`img/logo.webp`, `img/logo-branco.webp`, `img/favicon.png`, `img/apple-touch-icon.png`).
+
+## Analytics
+
+Google Tag Manager (**GTM-PGZBVHQC**) instalado: `<script>` no topo do `<head>` e
+`<noscript>` logo após o `<body>` no `index.html`.
 
 ## Imagens
 
@@ -58,8 +62,6 @@ Para mudar o número ou a mensagem, troque em todos — é o mesmo link repetido
 | `hero-farmaceutica.webp`  | 1600×1000 | Fundo do hero                 |
 | `fachada.webp`            | 800×600   | Seção "Sobre" + card Parque Trindade I |
 | `fachada-vila-rizzo.webp` | 800×600   | Card da unidade Vila Rizzo (Goiânia)   |
-| `servico-pressao.webp`    | 600×400   | Card de pressão ⚠️ trocar     |
-| `servico-glicemia.webp`   | 600×400   | Card de glicemia ⚠️ trocar    |
 | `servico-injetaveis.webp` | 600×400   | Card de injetáveis ⚠️ trocar  |
 | `logo.webp`               | 300×300   | Logo no hero                  |
 | `logo-branco.webp`        | 260×260   | Logo no rodapé (fundo escuro) |
